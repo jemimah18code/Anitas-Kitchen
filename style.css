@@ -5,11 +5,11 @@
 }
 
 .banner {
-    position: absolute;
-    width: 100%;
-    height: 80%;
+    position: relative;
     top: 0;
     left: 0;
+    width: 100%;
+    height: 80vh;
     background-image: url("./images/landing.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +24,7 @@
 }
 
 button {
-    color: azure;
+    color: white;
     background-color: transparent;
     border: none;
     font-size: 50px;
@@ -72,4 +72,51 @@ button {
     text-align: center;
     font-size: 24px;
     letter-spacing: 2px;
+}
+
+.bree {
+    height: 20vh;
+    width: 25%
+}
+
+.time {
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.party {
+    background-color: #F15A29;
+    color: white;
+}
+
+.bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% center;
+}
+
+.bg:hover {
+    background-color: white;
+    opacity: .5;
+}
+
+.bg p {
+    color: white;
+    font-size: 20px;
+}
+
+.break {
+    background-image: url("./images/breakfast.jpg");
+}
+
+.lunch {
+    background-image: url("./images/lunch.jpg")
+}
+
+.dinner {
+    background-image: url("./images/dinner.jpg");
 }
