@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Playfair Display', serif;
 }
 
 .banner {
@@ -13,4 +14,41 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 100%;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+    top: 50px;
+    left: 10%;
+}
+
+button {
+    color: azure;
+    background-color: transparent;
+    border: none;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.menu-content {
+    position: absolute;
+    display: none;
+    max-width: 150px;
+    z-index: 1;
+}
+
+.menu-content ul li {
+    padding: 2px 0;
+    list-style: none;
+}
+
+.menu-content ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.menu:hover .menu-content {
+    display: block;
 }
