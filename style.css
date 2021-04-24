@@ -92,7 +92,6 @@
     }
     
     .bg {
-        display: flex;
         align-items: center;
         justify-content: center;
         background-repeat: no-repeat;
@@ -123,13 +122,11 @@
     }
     
     .food {
-        width: 60%;
+        width: 55%;
         margin: 0 auto;
         margin-top: 50px;
         padding: 20px 0 0;
     }
-    
-    .fast-food {}
     
     .fd {
         border: 10px solid white;
@@ -161,16 +158,24 @@
     
     .rev {
         flex-direction: row-reverse;
+        justify-content: space-between;
         margin-top: 30px;
     }
     
     .fd-rev {
         flex-direction: row;
-        justify-content: space-between;
     }
     
     .l-rev {
-        margin-left: 30px;
         text-align: right;
-        padding-right: 30px;
+    }
+    
+    .l-menu {
+        background-image: url("./images/foodsBg.jpg");
+        align-items: center;
+        height: 50vh;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center 40%;
     }
