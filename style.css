@@ -1,123 +1,160 @@
-* {
-    padding: 0;
-    margin: 0;
-    font-family: 'Playfair Display', serif;
-}
-
-.banner {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80vh;
-    background-image: url("./images/landing.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center 100%;
-}
-
-.menu {
-    position: relative;
-    display: inline-block;
-    top: 50px;
-    left: 10%;
-}
-
-button {
-    color: white;
-    background-color: transparent;
-    border: none;
-    font-size: 50px;
-    font-weight: 100;
-}
-
-.menu-content {
-    position: absolute;
-    display: none;
-    max-width: 150px;
-    z-index: 1;
-}
-
-.menu-content ul li {
-    padding: 2px 0;
-    list-style: none;
-}
-
-.menu-content ul li a {
-    color: white;
-    text-decoration: none;
-    display: block;
-}
-
-.menu:hover .menu-content {
-    display: block;
-}
-
-.menu-log {
-    display: relative;
-}
-
-.menu-flex {
-    display: flex;
-}
-
-.menu-pic {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.menu-pic figcaption {
-    color: white;
-    text-align: center;
-    font-size: 24px;
-    letter-spacing: 2px;
-}
-
-.bree {
-    height: 20vh;
-    width: 25%
-}
-
-.time {
-    height: 50%;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-}
-
-.party {
-    background-color: #F15A29;
-    color: white;
-}
-
-.bg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100% center;
-}
-
-.bg:hover {
-    background-color: white;
-    opacity: .5;
-}
-
-.bg p {
-    color: white;
-    font-size: 24px;
-}
-
-.break {
-    background-image: url("./images/breakfast.jpg");
-}
-
-.lunch {
-    background-image: url("./images/lunch.jpg")
-}
-
-.dinner {
-    background-image: url("./images/dinner.jpg");
-}
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: 'Playfair Display', serif;
+    }
+    
+    .banner {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 75vh;
+        background-image: url("./images/landing.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center 100%;
+    }
+    
+    .menu {
+        position: relative;
+        display: inline-block;
+        top: 50px;
+        left: 10%;
+    }
+    
+    button {
+        color: white;
+        background-color: transparent;
+        border: none;
+        font-size: 50px;
+        font-weight: 100;
+    }
+    
+    .menu-content {
+        position: absolute;
+        display: none;
+        max-width: 150px;
+        z-index: 1;
+    }
+    
+    .menu-content ul li {
+        padding: 2px 0;
+        list-style: none;
+    }
+    
+    .menu-content ul li a {
+        color: white;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .menu:hover .menu-content {
+        display: block;
+    }
+    
+    .menu-log {
+        display: relative;
+    }
+    
+    .menu-flex {
+        display: flex;
+    }
+    
+    .menu-pic {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .menu-pic figcaption {
+        color: white;
+        text-align: center;
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+    
+    .bree {
+        height: 25vh;
+        width: 25%
+    }
+    
+    .time {
+        height: 50%;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+    }
+    
+    .party {
+        background-color: #F15A29;
+        color: white;
+    }
+    
+    .bg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 100% center;
+    }
+    
+    .bg:hover {
+        background-color: white;
+        opacity: .5;
+    }
+    
+    .bg p {
+        color: white;
+        font-size: 24px;
+    }
+    
+    .break {
+        background-image: url("./images/breakfast.jpg");
+    }
+    
+    .lunch {
+        background-image: url("./images/lunch.jpg")
+    }
+    
+    .dinner {
+        background-image: url("./images/dinner.jpg");
+    }
+    
+    .food {
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 50px;
+        padding: 20px 0 0;
+    }
+    
+    .fast-food {}
+    
+    .fd {
+        border: 10px solid white;
+        box-shadow: 0 0 3px rgb(189, 185, 185);
+    }
+    
+    .fd-img {
+        flex-direction: column;
+        margin-right: 5%;
+    }
+    
+    .lorem {
+        width: 40%;
+        margin-top: 20px;
+    }
+    
+    .lorem p {
+        padding: 20px 0;
+    }
+    
+    .glink {
+        border: 1px solid #F15A29;
+        color: #F15A29;
+        text-decoration: none;
+        padding: 10px 8px;
+        text-transform: uppercase;
+        ;
+    }
