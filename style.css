@@ -173,9 +173,56 @@
     .l-menu {
         background-image: url("./images/foodsBg.jpg");
         align-items: center;
-        height: 50vh;
+        height: 65vh;
         justify-content: center;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center 40%;
+    }
+    
+    .fd-lower {
+        background-color: white;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+    
+    .fd-list {
+        list-style-type: none;
+    }
+    
+    .fd-list li {
+        width: 25%;
+        text-align: center;
+        padding: 10px 0;
+        background-color: rgba(128, 128, 128, 0.185);
+        border: 1px solid rgba(128, 128, 128, 0.363);
+    }
+    
+    .fd-list li:hover {
+        background-color: transparent;
+        border: none;
+        color: #f15a29
+    }
+    
+    .piz {
+        padding: 30px;
+    }
+    
+    .fd-lower-img {
+        padding: 10px 20px;
+    }
+    
+    .fd-lower-img figcaption {
+        text-align: center;
+        padding-top: 8px;
+        color: #F15A29;
+        font-weight: 600;
+    }
+    
+    .piz .let {
+        position: relative;
+        top: 123px;
+        color: #F15A29;
+        font-size: 28px;
     }
