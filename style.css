@@ -175,6 +175,7 @@
     }
     
     .l-menu {
+        margin-top: 40px;
         background-image: url("./images/foodsBg.jpg");
         align-items: center;
         height: 65vh;
@@ -229,4 +230,72 @@
         top: 123px;
         color: #F15A29;
         font-size: 28px;
+    }
+    
+    .testimonial {
+        margin: 40px auto;
+        width: 50%;
+        align-items: center;
+        border: 1px solid rgba(95, 89, 89, 0.247);
+        box-shadow: 0 0 5px gray;
+        height: 28vh;
+    }
+    
+    .customer {
+        flex-direction: column;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .customer p,
+    .customer h3 {
+        text-align: center;
+    }
+    
+    .abt-text {
+        position: relative;
+        top: 20px;
+        padding-left: 15px;
+    }
+    
+    .abt-text h3,
+    .abt strong {
+        padding-bottom: 10px;
+    }
+    
+    .customer h3 {
+        color: #F15A29;
+    }
+    
+    .abt-text h3 {
+        padding-bottom: 8px;
+    }
+    
+    .customer p strong {
+        padding-bottom: 5px;
+    }
+    
+    .abt {
+        border-left: 1px solid rgba(95, 89, 89, 0.247);
+    }
+    
+    .abt h3 {
+        padding-bottom: 5px;
+    }
+    
+    .custom-pic {
+        justify-content: center;
+        padding-top: 20px;
+    }
+    
+    .custom-pic figure {
+        padding: 0 10px
+    }
+    
+    .custom-pic .fa {
+        position: relative;
+        top: 15px;
+        padding: 0 10px;
+        font-size: 18px;
+        color: #F15A29;
     }
