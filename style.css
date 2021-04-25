@@ -362,3 +362,13 @@
         font-size: 18px;
         padding: 10px 0;
     }
+    
+    .social-icons figure {
+        padding: 5px 10px;
+    }
+    
+    .ftNote {
+        color: white;
+        align-content: flex-end;
+        margin-top: 70px;
+    }
