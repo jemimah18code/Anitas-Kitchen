@@ -343,7 +343,7 @@
     
     .last-ft {
         background: #F15A29;
-        height: 30vh;
+        height: 40vh;
         align-items: center;
         flex-direction: column;
         justify-content: center;
@@ -371,4 +371,6 @@
         color: white;
         align-content: flex-end;
         margin-top: 70px;
+        letter-spacing: 2px;
+        font-size: 18px;
     }
