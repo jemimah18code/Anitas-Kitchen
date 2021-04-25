@@ -138,6 +138,10 @@
         margin-right: 5%;
     }
     
+    .fd-img img {
+        width: 100%;
+    }
+    
     .lorem {
         width: 40%;
         margin-top: 20px;
