@@ -311,9 +311,32 @@
     
     .subscription {
         color: white;
-        text-align: center;
     }
     
     .subscription p {
         font-weight: bold;
+        font-size: 28px;
+        letter-spacing: 1px;
+        padding-bottom: 20px;
+    }
+    
+    #email {
+        width: 55%;
+        height: 40px;
+        border-radius: 5px;
+        border-color: transparent;
+        color: white;
+        font-size: 20px;
+        background-color: rgba(255, 255, 255, 0.219);
+    }
+    
+    #submit {
+        height: 43px;
+        margin-left: 20px;
+        width: 40%;
+        border-radius: 5px;
+        border-color: transparent;
+        background-color: #F15A29;
+        color: white;
+        font-size: 20px
     }
