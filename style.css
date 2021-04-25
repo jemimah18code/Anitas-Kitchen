@@ -348,3 +348,17 @@
         flex-direction: column;
         justify-content: center;
     }
+    
+    .ft-logo span {
+        color: white;
+        font-size: 50px;
+        font-weight: bold;
+    }
+    
+    .ft-logo figcaption {
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        font-size: 18px;
+        padding: 10px 0;
+    }
