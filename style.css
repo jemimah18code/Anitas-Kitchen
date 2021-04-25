@@ -299,3 +299,21 @@
         font-size: 18px;
         color: #F15A29;
     }
+    
+    .ft-img {
+        background-image: url("./images/subscribe.jpg");
+        height: 30vh;
+        background-size: cover;
+        background-position: center center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .subscription {
+        color: white;
+        text-align: center;
+    }
+    
+    .subscription p {
+        font-weight: bold;
+    }
