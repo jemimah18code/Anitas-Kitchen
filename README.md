@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://saretoduncan.github.io/anitas-kitchen)
+[Live Demo Link](https://saretoduncan.github.io/Anitas-Kitchen)
 
 
 ## Getting Started
